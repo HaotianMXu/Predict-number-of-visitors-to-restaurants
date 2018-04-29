@@ -73,8 +73,8 @@ The submissions are evaluated with [root mean squared logarithmic error (RMSLE)]
 
 ## Feature Engineering Tricks
 - Holiday trick: mark holidays as weekend and the day before holiday as Friday. 
-- Visit info: data of 21,35,63,140,280,350,420 days before are grouped  
-- Reservation info: data of 35,63,140 days before are grouped
+- Visit info: features of 21,35,63,140,280,350,420 days before are generated separately  
+- Reservation info: features of 35,63,140 days before are generated separately 
 
 ## Models
 3 models are trained with [LightGBM](https://github.com/Microsoft/LightGBM) and then ensemabled.
