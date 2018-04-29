@@ -2,7 +2,7 @@
 Predict how many future visitors a restaurant will receive (solution to kaggle challenge 'Recruit Restaurant Visitor Forecasting')
 
 ## Problem Define
-Use history reservation and visitation data to predict the total number of visitors to a restaurant for future dates
+Use time-series reservation and visitation data to predict the total number of visitors to a restaurant for future dates
 
 ## Motivation
 > One common predicament is that restaurants need to know how many customers to expect each day to effectively purchase ingredients and schedule staff members. This forecast isn't easy to make because many unpredictable factors affect restaurant attendance, like weather and local competition. It's even harder for newer restaurants with little historical data.
